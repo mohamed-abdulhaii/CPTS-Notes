@@ -4,13 +4,11 @@ A collection of simple notes and cheat sheets based on my penetration testing le
 
 These notes are mainly designed as a **quick reference**(Just Commands) during labs and practice — something I can quickly look at to remember a command, flag or option.
 
-> ⚠️ **Important**
+> ⚠️ **Use these notes for quick recall (copy-paste), not as a substitute for understanding.**
 >
-> This repository is a **cheat sheet, not a replacement for studying**.
+> The best way to learn these techniques is to study the corresponding modules,
+> practice them in labs, and understand what each command does before using it.
 >
-> The commands and notes here are meant to help with quick recall and should not be treated as something to blindly copy and paste.
->
-> If you want to understand why and when to use these techniques, I strongly recommend studying the corresponding modules, practicing in labs, and understanding the concepts behind the commands.
 
 ## Topics
 
