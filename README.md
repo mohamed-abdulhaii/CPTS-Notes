@@ -13,17 +13,7 @@ These notes are mainly designed as a **quick reference**(Just Commands) during l
 ## Topics
 
 - Network Enumeration with NMAP
-- Services and Protocols : 
-- FTP
-- SMB
-- NFS
-- DNS
-- SMTP
-- IMAP/POP3
-- SNMP
-- MySQL / MSSQL
-- Oracle TNS
-- IPMI
+- Services and Protocols : FTP, SMB, NFS, DNS, SMTP, IMAP/POP3, SNMP, MySQL / MSSQL, Oracle TNS and IPMI
 - Windows and Linux remote management protocols
 - Web Information Gathering
 - And more as I continue learning
