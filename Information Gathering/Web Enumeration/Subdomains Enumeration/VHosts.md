@@ -10,7 +10,7 @@
 Virtual Hosting allows a single web server (like Apache, Nginx, or IIS) to host multiple websites or applications on one server and IP address. The web server uses the **HTTP Host Header** sent by the browser to route incoming traffic to the correct website directory.
 
 **Subdomains VS VHosts:**
-- **Subdomain**: A DNS-level distinction (e.g., `dev.example.com`) mapped to an IP address via A/AAAA records in public or internal DNS servers.
+- **Subdomain**: A DNS-level distinction (e.g., `sub.example.com`) mapped to an IP address via A/AAAA records in public or internal DNS servers.
 - **Virtual Host (VHost)**: A web-server configuration level distinction. A server can host non-public VHosts that do **not** have public DNS records. You can only access them by overriding the local `/etc/hosts` file or manipulating the HTTP `Host` header.
 
 ### Types of Virtual Hosting
