@@ -21,14 +21,10 @@ Virtual Hosting allows a single web server (like Apache, Nginx, or IIS) to host 
 
 ### VHost Fuzzing 
 When a target uses Name-Based Virtual Hosting, we send HTTP requests to the target IP address while fuzzing/brute-forcing different hostnames in the `Host` header.
-(عملية الـ VHost Fuzzing بتعتمد على إرسال طلبات HTTP لـ IP السيرفر مع تغيير قيمة الـ Host Header في كل طلب لتخمين الـ VHosts الخفية.)
 
 **Key Tools** : 
 - gobuster: Multi-purpose tool with a dedicated vhost mode.
-أداة سريعة ومشهورة لتخمين الـ VHosts والـ Directories.
 
 - ffuf: Extremely fast and flexible web fuzzer often used to fuzz the Host header.
-فوزر سريع جداً ومرن للتخمين على الـ Host Header.
 
 - feroxbuster: Fast Rust-based recursive scanner supporting vhost discovery.
-أداة مكتوبة بلغة Rust سريعة في التخمين والتصفية
