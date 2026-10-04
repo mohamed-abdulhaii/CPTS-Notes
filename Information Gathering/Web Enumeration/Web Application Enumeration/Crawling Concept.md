@@ -2,8 +2,6 @@
 
 Crawling (also called **spidering**) in web penetration testing is the automated process of exploring a web application by following links, clicking buttons, and submitting forms to map out its structure and discover hidden pages, files, and API endpoints. Unlike fuzzing or brute-forcing—which rely on guessing names—crawling works by systematically parsing web pages, extracting valid links (`href`, `src`, form actions), and following them iteratively across the target.
 
-عملية الـ Web Crawling (أو الـ Spidering) هي تتبع ورو زحف تلقائي للموقع؛ البوت يبدأ من صفحة البداية (Seed URL)، يسحب كل اللينكات الموجودة فيها، يدخل على كل لينك فيهم ويسحب اللينكات اللي جواه وهكذا عشان يرسم خريطة كاملة للموقع والصفحات المربوطة ببعض.
-
 
 ### Crawling Strategies
 
