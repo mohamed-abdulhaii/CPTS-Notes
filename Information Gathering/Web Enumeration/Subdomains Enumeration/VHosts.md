@@ -14,17 +14,11 @@ Virtual Hosting allows a single web server (like Apache, Nginx, or IIS) to host 
 - **Virtual Host (VHost)**: A web-server configuration level distinction. A server can host non-public VHosts that do **not** have public DNS records. You can only access them by overriding the local `/etc/hosts` file or manipulating the HTTP `Host` header.
 
 ### Types of Virtual Hosting
-1- **Name-Based Virtual Hosting** (Most Common): Uses the HTTP `Host` header to route traffic for multiple domains on a single IP address.
-2- **IP-Based Virtual Hosting**: Assigns a unique IP address to each website hosted on the server.
-3- **Port-Based Virtual Hosting**: Runs different websites on different TCP ports (e.g., Port 80, Port 8080) on the same IP address.
+- **Name-Based Virtual Hosting** (Most Common): Uses the HTTP `Host` header to route traffic for multiple domains on a single IP address.
+- **IP-Based Virtual Hosting**: Assigns a unique IP address to each website hosted on the server.
+- **Port-Based Virtual Hosting**: Runs different websites on different TCP ports (e.g., Port 80, Port 8080) on the same IP address.
 
 
 ### VHost Fuzzing 
 When a target uses Name-Based Virtual Hosting, we send HTTP requests to the target IP address while fuzzing/brute-forcing different hostnames in the `Host` header.
 
-**Key Tools** : 
-- gobuster: Multi-purpose tool with a dedicated vhost mode.
-
-- ffuf: Extremely fast and flexible web fuzzer often used to fuzz the Host header.
-
-- feroxbuster: Fast Rust-based recursive scanner supporting vhost discovery.
