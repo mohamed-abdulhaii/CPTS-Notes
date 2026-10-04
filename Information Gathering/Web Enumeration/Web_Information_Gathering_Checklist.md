@@ -20,7 +20,7 @@ Work top to bottom. Passive first (no footprint on the target), then active (tou
 
 ---
 
-## Tool Reference — By Category
+## What you should do and note 
 
 ### WHOIS
 
