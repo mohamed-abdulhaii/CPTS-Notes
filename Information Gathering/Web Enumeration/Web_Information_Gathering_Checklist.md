@@ -1,4 +1,4 @@
-# Web_Information_Gathering_Checklist (1)
+# Web_Information_Gathering_Checklist
 
 ---
 
