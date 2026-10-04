@@ -2,7 +2,7 @@
 
 A collection of simple notes and cheat sheets based on my penetration testing learning journey.
 
-These notes are mainly designed as a **quick reference**(Just Commands) during labs and practice — something I can quickly look at to remember a command, flag or option.
+These notes are mainly designed as a **quick reference**during labs and practice — something I can quickly look at to remember a command, flag or option.
 
 > ⚠️ **Use these notes for quick recall (copy-paste), not as a substitute for understanding.**
 >
