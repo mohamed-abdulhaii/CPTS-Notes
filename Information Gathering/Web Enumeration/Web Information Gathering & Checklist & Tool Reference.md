@@ -1,15 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
 # Overview
 
 Web Application Information Gathering is a specialized phase of reconnaissance that focuses on web applications and their underlying technologies. Unlike infrastructure enumeration, this phase targets the application layer to identify technologies, frameworks, hidden files, parameters, and potential attack vectors.
