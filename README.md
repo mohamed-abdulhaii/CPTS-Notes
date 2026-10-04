@@ -8,7 +8,8 @@ These notes are mainly designed as a **quick reference**during labs and practice
 >
 > The best way to learn these techniques is to study the corresponding modules,
 > practice them in labs, and understand what each command does before using it.
->
+
+😊 Important Note: Related articles for each topic (that is, the topic that has an article) can be found in Articles Folder
 
 ## Topics
 
